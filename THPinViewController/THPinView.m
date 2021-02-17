@@ -175,6 +175,7 @@
 - (void)setPromptColor:(UIColor *)promptColor
 {
     self.promptLabel.textColor = promptColor;
+    [self.bottomButton setTitleColor:promptColor forState:UIControlStateNormal];
 }
 
 - (BOOL)hideLetters
