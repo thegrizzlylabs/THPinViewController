@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char THPinViewControllerFrameworkVersionString[
 
 // In this header, you should import all the public headers of your framework using statements like #import <THPinViewControllerFramework/PublicHeader.h>
 
-#import "THPinViewController.h"
+#import <THPinViewControllerFramework/THPinViewController.h>
